@@ -31,10 +31,10 @@ def literal_aoh
     { name:  "Bruce Green", occupation: "Fan of Mildred" }
   ]
   infinite_jest_array
-  
 end
 
 def aoh_lookup(aoh, row, key)
+  aoh[row][key]
 end
 
 def aoh_update(aoh, row, key, new_value)
